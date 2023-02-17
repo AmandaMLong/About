@@ -145,7 +145,7 @@ input, select, textarea {
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 	*/	text-decoration: none;
 		color: #585858;
-		border-bottom: dotted 2.4px #ffcc5f;
+		border-bottom: dotted 1.3px #ffcc5f;
 	}
 
 		a:hover {
