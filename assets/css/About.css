@@ -114,15 +114,15 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #585858;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
-		font-weight: 300;
+		font-size: 17pt;
+		font-weight: 500;
 		line-height: 1.75;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 164pt;
 			}
 
 		}
@@ -130,7 +130,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -314,10 +314,12 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px #c9c9c9;
+		border-left: solid 4px #9FBCCD;
 		font-style: italic;
-		margin: 0 0 2em 0;
-		padding: 0.5em 0 0.5em 2em;
+		margin: .7em 0 .4em 0;
+		padding: 0.5em 0 0.5em .8em;
+		font-size: 1.2em;
+		position: relative;
 	}
 
 	code {
@@ -687,8 +689,7 @@ input, select, textarea {
 
 		.image.right {
 			float: right;
-			padding: 0 0 1em 1.5em;
-			top: 0.25em;
+			padding: 2em 0 2em 1.5em;
 		}
 
 		.image.fit {
