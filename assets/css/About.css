@@ -1064,11 +1064,21 @@ ol {
 	        letter-spacing: 0em;
 	    }
 
-			#header nav ul li a {
-				padding: 0 0em 0 1em;
-				font-size: 0.7em;
-				letter-spacing: 0em;
+	    	#header .title:hover {
+				font-size: .7em;
 			}
+
+			    #header nav ul li a {
+				    padding: 0 0em 0 1em;
+				    font-size: 0.6em;
+				    font-weight: 900;
+				    letter-spacing: 0em;
+				    text-transform: uppercase;
+			    }
+
+				    #header nav ul li a:hover {
+					    font-size: .6em;
+					}
 }
 
 /* -----------------------------------------------
