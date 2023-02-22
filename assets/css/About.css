@@ -1054,20 +1054,25 @@ ol {
 							opacity: 0;
 						}
 
-		@media screen and (max-width: 736px) {
+@media screen and (max-width: 576px) {
 
-			#header {
-				padding: 0.5em 0 0.1em 0 ;
+	#header {
+		height: 2.5em;
+	}
+
+	    #header .title {
+	        font-size: .7em;
+	        letter-spacing: 0em;
+	    }
+
+			#header nav ul li a {
+				padding: 0 0em 0 1em;
+				font-size: 0.6em;
+				font-weight: 900;
+				letter-spacing: 0em;
+				text-transform: uppercase;
 			}
-				#header nav {
-					right: 0.5em;
-					top: 0.5em;
-				}
-					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
-						background-size: 1.5em 1.5em;
-					}
-
-		}
+}
 
 /* -----------------------------------------------
                     MENU
