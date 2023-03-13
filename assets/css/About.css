@@ -735,7 +735,7 @@ ol {
 
 	table {
 		margin: 0 0 1em 0;
-		width: 60%;
+		max-width: 60%;
 	}
 
 		table tbody tr {
